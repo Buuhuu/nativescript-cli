@@ -18,7 +18,7 @@ class IOSDebugServiceInheritor extends IOSDebugService {
 		$iOSSocketRequestExecutor: IiOSSocketRequestExecutor,
 		$processService: IProcessService,
 		$socketProxyFactory: ISocketProxyFactory) {
-		super(<any>{}, $devicesService, $platformService, $iOSEmulatorServices, $childProcess, $hostInfo, $logger, $errors,
+		super(<any>{}, $devicesService, $platformService, $iOSEmulatorServices, $childProcess, $logger, $errors,
 			$npmInstallationManager, $iOSNotification, $iOSSocketRequestExecutor, $processService, $socketProxyFactory);
 	}
 
